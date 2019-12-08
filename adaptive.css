@@ -1,0 +1,341 @@
+
+@media  (min-width:319px) and (max-width:576px)
+{
+
+.navigation
+	{
+font-size:1.5em;
+		display: none;
+		margin:0;
+		left:0;
+		top:0;
+		margin-top:10vh;
+		width:100%;
+		height:90vh;
+		position: absolute;
+	
+	}
+	.navigation>div{
+		margin-top:20%;
+		text-align: center;
+			
+	}
+	
+
+.hamburger {
+	display: block;
+   margin-left:8%;
+    margin-top: 8%;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left:0;
+    top:0;
+}
+
+ .bar1 {
+    transform-origin: 5%;
+}
+
+.bar4 {
+    transform-origin: 5%;
+}
+
+.checkbox:checked + label > .hamburger3 > .bar1{
+    transform: rotate(45deg);
+    height: 3px;
+    width: 42px;
+}
+
+.checkbox:checked + label > .hamburger3 > .bar3{
+    transform: rotate(45deg);
+    height: 3px;
+    background-color: transparent;
+}
+.checkbox:checked + label > .hamburger3 > .bar2{
+    transform: rotate(-45deg);
+    height: 3px;
+    background-color: transparent;
+}
+.checkbox:checked + label > .hamburger3 > .bar4{
+    transform: rotate(-45deg);
+    height: 3px;
+    width: 42px;
+}
+
+
+.visuallyHidden {
+    position: absolute; 
+    overflow: hidden; 
+    clip: rect(0 0 0 0); 
+    height:1px; 
+    width:1px; 
+    margin:-1px; 
+    padding: 0;
+    border: 0; 
+}
+
+ .bar {
+    padding: 0;
+    width: 30px;
+    height: 4px;
+    background-color: maroon;
+    display: block;
+    border-radius: 4px;
+    transition: all 0.4s ease-in-out;
+    position: absolute; 
+}
+.bar1 {
+    top: 0;
+}
+.bar2,
+.bar3 {
+    top: 13.5px;
+}
+.bar3 {
+    right: 0;
+}
+.bar4 {
+    bottom: 0;
+}
+		.header
+
+	{
+		height:75vh;
+		width:100%;
+		flex-direction: column;
+		justify-content: space-around;
+		margin:0;
+		margin-bottom:15%;
+	}
+	
+	.header_icon{
+		margin:0;
+		font-size:3em;
+		margin-top:20%;
+	}
+.header_right
+{
+font-size:1.5em;
+width:50%;
+flex-direction: column;
+	height:60%;
+	margin:0;
+}
+
+.contact_us
+{
+	border:1px solid red;
+	margin:0;
+	width:120%;
+}
+.image_display{
+	display: none;
+}
+
+.dig_ag{
+	margin:0;
+	width:80%;
+	margin:auto;
+}
+h1{
+	font-size:1.8em;
+}
+.dig_ag{
+	text-align:center;
+}
+.latin{
+	font-size:0.8em;
+}
+.dig_ag_more{
+	height:10vh;
+
+	flex-direction: column;
+	font-size:0.8em;
+	width:100%;
+}
+.dig_ag_button{
+	width:55%;
+}
+.grid{
+	grid:repeat(2,48%)/repeat(2,48%);
+	align-content:space-between;
+justify-content: space-around;
+}
+.h2_see_some{
+	font-size:1.5em;
+	text-align: center;
+}
+.h2_get_in_touch{
+	font-size:1.5em;
+	text-align: center;
+
+}
+.contact_us_form{
+
+	width:80%;
+	margin:0;
+	margin:auto;
+	margin-top:15%;
+	margin-bottom:15%;
+}
+.contact_us_bottom{
+	font-size:1em;
+	text-align: center;
+	margin-bottom: 5%;
+}
+.inputs>input{
+	height: 7vh;
+}
+#input_message{
+	height: 14vh;
+}
+.input_submit>button{
+	width:35%;
+}
+.footer{
+	height: 25vh;
+}
+.footer_nav{
+	width:100%;
+}
+.footer_icons{
+	width:30%;
+}
+.footer_icons>img{
+
+	
+	height: 60%;
+}
+}
+
+
+
+
+@media (min-width:577px) and (max-width: 767px)
+{
+.header{
+	margin:0;
+flex-direction: column;
+justify-content: space-around;
+
+height:100vh;
+}
+.header_icon{
+	font-size:2.8em;	
+	margin:0;
+	margin-top:10%;
+}
+
+.header_right{
+height:30%;
+	margin:0;
+flex-direction: column;
+width:35%;
+}
+.navigation{
+	display: none;
+}
+.main_image{
+	
+float:none;
+width:40%;
+margin-left:30%;
+
+}
+.main_image>img{
+	width:100%;
+}
+.dig_ag{
+
+margin:0;
+width:70%;
+text-align: center;
+	margin:auto;
+margin-top:10%;
+}
+.grid_content{
+	margin-top:10%;
+	padding:0;
+
+	margin-left:10%;
+	margin-right:10%;
+}
+h1{
+	font-size:3em;
+}
+.h2_see_some{
+	text-align: center;
+
+}
+.dig_ag_more{
+height:20vh;
+	margin-left:auto;
+margin-right:auto;
+
+}
+.contact_us_bottom{
+text-align: center;
+}
+.h2_get_in_touch{
+	text-align:center;
+}
+
+.input_submit>button{
+
+	width:25%;
+	height: 10vh;
+	
+}
+.footer{
+	margin-top:10%;
+	font-size:0.8em;
+}
+
+.footer_icons>img{
+
+		height: 50%;
+}
+.footer_nav{
+	width:50%;
+}
+}
+
+
+@media (min-width: 768px) and (max-width:991px)
+{
+.navigation{
+	width:60%;
+}
+.header_right{
+
+	margin-right:0;
+	width:20%;
+flex-direction: column;
+}
+.contact_us{
+	width:80%;
+	font-size:0.8em;
+}
+.language{
+	margin-bottom: 45%;
+}
+.main_image{
+	margin-top:10%;
+}
+h1{
+	font-size:2.5em;
+}
+.input_submit>button{
+
+	width:25%;
+	height: 7vh;
+	
+}
+.footer_nav{
+	width:60%;
+}
+.footer_icons>img{
+	height:50%;
+}
+}
